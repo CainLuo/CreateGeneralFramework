@@ -5,6 +5,8 @@
 
 > 之前我写了一个关于非**`Aggregate`**版本的[《模拟器与真机静态Framework合成教程》](http://www.jianshu.com/p/305c62fa9e2b), 但那个实在是太麻烦的, 所以我又出墙翻了一些歪果仁写的博客, 果然是世上无难事只怕有心人, 终于被我找到合适的**`Shell`**脚本了
 
+---
+
 ###作者感言
 > 为了写这篇文章, 我翻查了许多资料, 都没有找到详细点的可参考资料, 外国的文章就不用说了, 光是看鸡肠就头晕了, 所以我自己总结了一些经验, 整理了一番, 决定分享出来, 希望大家喜欢
 >
@@ -24,6 +26,7 @@
 ![0 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/0.png)
 
 > 新建Cocoa Touch Framework工程
+
 > ![1 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/1.png)
 > ![2 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/2.png)
 > ![3 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/3.png)
@@ -33,10 +36,12 @@
 ### 添加测试类
 
 > 添加一个测试类**`TestTwoClass`**
+
 > ![5 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/5.png)
 
 ---
 ### 配置Framework工程
+
 ![6 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/6.png)
 ![7 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/7.png)
 ![8 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/8.png)
@@ -123,15 +128,9 @@ fi
 >
 > 我们只要去改改导入的头文件就可以了, 比如:
 
-
-
 ![28 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/28.png)
 
-
-
 > PS: 这种方式只是我们来玩玩而已, 基本上我们都会吧**`.h`**文件放到**`public`**中
-
-
 
 ---
 ### 工程地址
@@ -142,4 +141,3 @@ GitHub地址: https://github.com/CainRun/CreateGeneralFramework
 ### 结束语
 
 > 好啦, 教程到这里就结束了, 谢谢大家的耐心观看
-

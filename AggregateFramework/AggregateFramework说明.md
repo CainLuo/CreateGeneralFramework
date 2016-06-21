@@ -97,15 +97,11 @@ fi
 ![19 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/19.png)
 
 ![20 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/20.png)
-![21 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/21.png)
-![22 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/22.png)
-
-
 
 > 这里逮到一个错误, 不要慌, 因为我们之前是用**`Release`**模式的, 只要把**`Aggregate`**切换到**`Release`**模式, 再运行就可以了
 
-
-
+![21 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/21.png)
+![22 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/22.png)
 ![23 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/23.png)
 ![24 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/24.png)
 

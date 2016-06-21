@@ -22,60 +22,60 @@
 
 > 新建一个Workpace文件
 
-![0 | center | 1080x0](./0.png)
+![0 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/0.png)
 
 > 新建Cocoa Touch Framework工程
-> ![1 | center | 1080x0](./1.png)
-> ![2 | center | 1080x0](./2.png)
-> ![3 | center | 1080x0](./3.png)
-> ![4 | center | 1080x0](./4.png)
+> ![1 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/1.png)
+> ![2 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/2.png)
+> ![3 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/3.png)
+> ![4 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/4.png)
 
 ---
 ### 添加测试类
 
 > 添加一个测试类**`TestTwoClass`**
-> ![5 | center | 1080x0](./5.png)
+> ![5 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/5.png)
 
 ---
 ### 配置Framework工程
-![6 | center | 1080x0](./6.png)
-![7 | center | 1080x0](./7.png)
-![8 | center | 1080x0](./8.png)
-![9 | center | 1080x0](./9.png)
-![10 | center | 1080x0](./10.png)
-![11 | center | 1080x0](./11.png)
-![12 | center | 1080x0](./12.png)
+![6 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/6.png)
+![7 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/7.png)
+![8 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/8.png)
+![9 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/9.png)
+![10 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/10.png)
+![11 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/11.png)
+![12 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/12.png)
 
 ---
 ### 分别生成真机与模拟器的Framework包
 
-![13 | center | 1080x0](./13.png)
-![14 | center | 1080x0](./14.png)
+![13 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/13.png)
+![14 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/14.png)
 
 ---
 ### 创建Aggregate
 
-![15 | center | 1080x0](./15.png)
-![16 | center | 1080x0](./16.png)
-![17 | center | 1080x0](./17.png)
+![15 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/15.png)
+![16 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/16.png)
+![17 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/17.png)
 
 ---
 ### 配置Aggregate
 
-![18 | center | 1080x0](./18.png)
-![19 | center | 1080x0](./19.png)
-![20 | center | 1080x0](./20.png)
-![21 | center | 1080x0](./21.png)
-![22 | center | 1080x0](./22.png)
-![23 | center | 1080x0](./23.png)
-![24 | center | 1080x0](./24.png)
+![18 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/18.png)
+![19 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/19.png)
+![20 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/20.png)
+![21 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/21.png)
+![22 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/22.png)
+![23 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/23.png)
+![24 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/24.png)
 
 ---
 ### 检测Framework包
 
-![25 | center | 1080x0](./25.png)
-![26 | center | 1080x0](./26.png)
-![27 | center | 1080x0](./27.png)
+![25 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/25.png)
+![26 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/26.png)
+![27 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/27.png)
 
 ---
 ### 测试Framework包
@@ -87,7 +87,7 @@
 >
 > 我们只要去改改导入的头文件就可以了, 比如:
 
-![28 | center | 1080x0](./28.png)
+![28 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/28.png)
 
 ---
 ### 工程地址

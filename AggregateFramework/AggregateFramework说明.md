@@ -7,9 +7,7 @@
 
 ###作者感言
 > 为了写这篇文章, 我翻查了许多资料, 都没有找到详细点的可参考资料, 外国的文章就不用说了, 光是看鸡肠就头晕了, 所以我自己总结了一些经验, 整理了一番, 决定分享出来, 希望大家喜欢
-
-
-
+>
 > 最后:
 > 如果你有更好的建议或者对这篇文章有不满的地方, 请联系我, 我会参考你们的意见再进行修改, 联系我时, 请备注**`Aggregate-Framework`** 如果觉得好的话, 希望大家也可以打赏一下~嘻嘻~祝大家学习愉快~谢谢~
 >
@@ -101,6 +99,13 @@ fi
 ![20 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/20.png)
 ![21 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/21.png)
 ![22 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/22.png)
+
+
+
+> 这里逮到一个错误, 不要慌, 因为我们之前是用**`Release`**模式的, 只要把**`Aggregate`**切换到**`Release`**模式, 再运行就可以了
+
+
+
 ![23 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/23.png)
 ![24 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/24.png)
 
@@ -122,7 +127,15 @@ fi
 >
 > 我们只要去改改导入的头文件就可以了, 比如:
 
+
+
 ![28 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/28.png)
+
+
+
+> PS: 这种方式只是我们来玩玩而已, 基本上我们都会吧**`.h`**文件放到**`public`**中
+
+
 
 ---
 ### 工程地址

@@ -1,7 +1,5 @@
 #玩转iOS开发：Aggregate脚本版本《模拟器与真机静态Framework合成教程》
 
-[TOC]
-
 ---
 ### 简介
 

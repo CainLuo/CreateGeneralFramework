@@ -9,6 +9,7 @@
 > 为了写这篇文章, 我翻查了许多资料, 都没有找到详细点的可参考资料, 外国的文章就不用说了, 光是看鸡肠就头晕了, 所以我自己总结了一些经验, 整理了一番, 决定分享出来, 希望大家喜欢
 
 
+
 > 最后:
 > 如果你有更好的建议或者对这篇文章有不满的地方, 请联系我, 我会参考你们的意见再进行修改, 联系我时, 请备注**`Aggregate-Framework`** 如果觉得好的话, 希望大家也可以打赏一下~嘻嘻~祝大家学习愉快~谢谢~
 >
@@ -63,7 +64,40 @@
 ### 配置Aggregate
 
 ![18 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/18.png)
+
+> 打开**`Run Script`**之后, 输入以下的脚本, 就可以自动合成通用的**`Framework`**库了
+>
+> PS: 脚本是我在**`Google`**上搜到的, 详细是谁写的, 我也不清楚, 很感谢这个作者提供的脚本
+
+```shell
+if [ "${ACTION}" = "build" ]
+then
+INSTALL_DIR=${SRCROOT}/Products/${PROJECT_NAME}.framework
+
+DEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework
+
+SIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework
+
+
+if [ -d "${INSTALL_DIR}" ]
+then
+rm -rf "${INSTALL_DIR}"
+fi
+
+mkdir -p "${INSTALL_DIR}"
+
+cp -R "${DEVICE_DIR}/" "${INSTALL_DIR}/"
+#ditto "${DEVICE_DIR}/Headers" "${INSTALL_DIR}/Headers"
+
+lipo -create "${DEVICE_DIR}/${PROJECT_NAME}" "${SIMULATOR_DIR}/${PROJECT_NAME}" -output "${INSTALL_DIR}/${PROJECT_NAME}"
+
+#open "${DEVICE_DIR}"
+#open "${SRCROOT}/Products"
+fi
+```
+
 ![19 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/19.png)
+
 ![20 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/20.png)
 ![21 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/21.png)
 ![22 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/22.png)
@@ -81,6 +115,7 @@
 ### 测试Framework包
 
 > 测试的方法和**[《模拟器与真机静态Framework合成教程》](http://www.jianshu.com/p/305c62fa9e2b)**这里面的测试方法一样, 这样就不多做解释了
+
 
 
 > 但是这里还有一点需要注意一些, 由于我们刚刚在打包的时候, 是把**`TestTwoClass.h`**是丢到**`Private`**里面去的, 哪怕我们已经把头文件丢到**`TestTwo.h`**中, 然后再引用**`TestTwo.h`**, 依旧是没办法去调用**`TestTwoClass`**内部的任何东西, 怎么办呢?

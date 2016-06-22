@@ -1,6 +1,18 @@
 #<center>玩转iOS开发：非脚本版本《模拟器与真机静态Framework合成教程》</center>
 
+### 目录
 
+- [简介](#简介)
+- [作者感言](#作者感言)
+- [创建静态包工程](#创建静态包工程)
+- [添加测试类](添加测试类)
+- [配置静态包工程](#配置静态包工程)
+- [检测静态包](#检测静态包)
+- [合成真机与模拟器通用的静态包](#合成真机与模拟器通用的静态包)
+- [注意!!!!!](#注意!!!!!)
+- [测试静态包](#测试静态包)
+- [工程地址](#工程地址)
+- [结束语](#结束语)
 
 ---
 ### 简介
@@ -21,7 +33,7 @@
 <p align="right">350116542: 腾讯QQ</p>
 
 ---
-### 创建Framework工程
+### 创建静态包工程
 > 在开始合成之前, 我们肯定是需要创建一个生成**`Framework`**的工程, 这里推荐用**`WorkSpace`**来创建, 因为可以方便我们去测试**`Framework`**库.
 
 ![1 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/NotAggregateFramework/images/1.png)
@@ -60,7 +72,7 @@
 > 添加完测试类之后, 下面让我们来配置一下整个**`Framework`**工程, 让它同时支持模拟器和真机.
 
 ---
-### 配置Framework工程
+### 配置静态包工程
 
 > Xcode默认是会把Framework变成Debug模式, 这时候我们需要去改成Release模式
 > ![8 | cneter | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/NotAggregateFramework/images/8.png)
@@ -111,7 +123,7 @@
 > ![21 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/NotAggregateFramework/images/21.png)
 
 ---
-### 检测Framework
+### 检测静态包
 
 > 虽然我们把**`Framework`**都打包好了, 但是我们需要检测一下是否符合我们的需求, 这是我们要打开**`Terminal`**, 并且输入命令.
 ```
@@ -129,7 +141,7 @@ lipo -info (Framework二进制文件地址)
 > ![24 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/NotAggregateFramework/images/24.png)
 
 ---
-### 合成真机与模拟器通用的Framework包
+### 合成真机与模拟器通用的静态包
 
 > 前面做了那么多的事情, 就为了现在这一步, 就是将模拟器与真机两个Framework包合成一个通用的Framework包, 由于我这里没有通用的Shell脚本, 只能用最笨的办法合成两个包了, 下面让我们一起来看看.
 
@@ -166,7 +178,7 @@ sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer
 ```
 
 ---
-### 测试Framework
+### 测试静态包
 > 既然我们那么辛苦的合成了一个通用的**`Framework`**, 不用用, 怎么对得起我们的付出呢? 再次回到**`Workspace`**, 新建一个测试工程.
 
 ![32 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/NotAggregateFramework/images/32.png)
@@ -198,6 +210,6 @@ GitHub地址: https://github.com/CainRun/CreateGeneralFramework
 ---
 ### 结束语
 > 其实我这个方法比较麻烦一些, 毕竟我还没找到怎么用脚本去合成一个的方法, 如果找到这样子方法的朋友希望可以告知一声, 感激不尽~~~
-> 
+>
 > 好啦, 教程到这里就结束了, 谢谢大家的耐心观看
 

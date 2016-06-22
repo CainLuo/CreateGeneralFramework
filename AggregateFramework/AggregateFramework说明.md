@@ -5,6 +5,14 @@
     - [作者感言](#作者感言)
     - [创建Framework工程](#创建Framework工程)
     - [添加测试类](#添加测试类)
+    - [配置Framework工程](#配置Framework工程)
+    - [分别生成真机与模拟器的Framework包](#分别生成真机与模拟器的Framework包)
+    - [创建Aggregate](#创建Aggregate)
+    - [配置Aggregate](#配置Aggregate)
+    - [检测Framework包](#检测Framework包)
+    - [测试Framework包](#测试Framework包)
+    - [工程地址](#工程地址)
+    - [结束语](#结束语)
 
 ---
 ###简介

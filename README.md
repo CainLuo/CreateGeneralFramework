@@ -1,9 +1,9 @@
 # 玩转iOS开发：《模拟器与真机静态Framework合成教程》
 
-- [作者感言](#作者感言)
-- [简介](#简介)
-- [Aggregate版本](#Aggregate-版本)
-- [非Aggregate版本](#非-Aggregate-版本)
+* [作者感言](#作者感言)
+* [简介](#简介)
+* [Aggregate版本](#Aggregate版本)
+* [非Aggregate版本](#非Aggregate版本)
 
 ---
 

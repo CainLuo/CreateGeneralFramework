@@ -2,8 +2,8 @@
 
 * [作者感言](#作者感言)
 * [简介](#简介)
-* [脚本版本](#Aggregate版本)
-* [非脚本版本](#非Aggregate版本)
+* [脚本版本](#脚本版本)
+* [非脚本版本](#非脚本版本)
 
 ---
 
@@ -27,7 +27,7 @@
 
 ---
 
-### Aggregate版本
+### 脚本版本
 
 [Aggregate工程地址](https://github.com/CainRun/CreateGeneralFramework/tree/master/AggregateFramework)
 
@@ -37,7 +37,7 @@
 
 ---
 
-### 非Aggregate版本
+### 非脚本版本
 
 [非Aggregate工程地址](https://github.com/CainRun/CreateGeneralFramework/tree/master/NotAggregateFramework)
 

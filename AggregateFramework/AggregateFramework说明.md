@@ -4,9 +4,10 @@
     - [简介](#简介)
     - [作者感言](#作者感言)
     - [创建Framework工程](#创建Framework工程)
+    - [添加测试类](#添加测试类)
 
 ---
-### 简介
+###简介
 
 > 之前我写了一个关于非**`Aggregate`**版本的[《模拟器与真机静态Framework合成教程》](http://www.jianshu.com/p/305c62fa9e2b), 但那个实在是太麻烦的, 所以我又出墙翻了一些歪果仁写的博客, 果然是世上无难事只怕有心人, 终于被我找到合适的**`Shell`**脚本了
 
@@ -24,7 +25,7 @@
 <p align="right">350116542: 腾讯QQ</p>
 
 ---
-### 创建Framework工程
+###创建Framework工程
 
 > 新建一个Workpace文件
 
@@ -38,14 +39,14 @@
 > ![4 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/4.png)
 
 ---
-### 添加测试类
+###添加测试类
 
 > 添加一个测试类**`TestTwoClass`**
 
 > ![5 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/5.png)
 
 ---
-### 配置Framework工程
+###配置Framework工程
 
 ![6 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/6.png)
 ![7 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/7.png)
@@ -56,20 +57,20 @@
 ![12 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/12.png)
 
 ---
-### 分别生成真机与模拟器的Framework包
+###分别生成真机与模拟器的Framework包
 
 ![13 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/13.png)
 ![14 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/14.png)
 
 ---
-### 创建Aggregate
+###创建Aggregate
 
 ![15 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/15.png)
 ![16 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/16.png)
 ![17 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/17.png)
 
 ---
-### 配置Aggregate
+###配置Aggregate
 
 ![18 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/18.png)
 
@@ -116,14 +117,14 @@ fi
 ![24 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/24.png)
 
 ---
-### 检测Framework包
+###检测Framework包
 
 ![25 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/25.png)
 ![26 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/26.png)
 ![27 | center | 1080x0](https://github.com/CainRun/CreateGeneralFramework/blob/master/AggregateFramework/images/27.png)
 
 ---
-### 测试Framework包
+###测试Framework包
 
 > 测试的方法和**[《模拟器与真机静态Framework合成教程》](http://www.jianshu.com/p/305c62fa9e2b)**这里面的测试方法一样, 这样就不多做解释了
 
@@ -138,11 +139,11 @@ fi
 > PS: 这种方式只是我们来玩玩而已, 基本上我们都会吧**`.h`**文件放到**`public`**中
 
 ---
-### 工程地址
+###工程地址
 
 GitHub地址: https://github.com/CainRun/CreateGeneralFramework
 
 ---
-### 结束语
+###结束语
 
 > 好啦, 教程到这里就结束了, 谢谢大家的耐心观看
